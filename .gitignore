@@ -1,0 +1,32 @@
+**/__pycache__
+*.pyc
+*vscode
+**/build
+evaluate
+
+# Model weights (large files)
+*.pt
+*.pth
+weights/
+
+# Media files
+# *.png
+*.jpg
+# *.mp4
+*.avi
+
+# Build artifacts
+**/build
+**/dist
+**/*egg-info
+*.lprof
+
+# Output and cache
+output/
+.venv/
+
+# ONNX/TensorRT models
+*.onnx
+*.onnx.data
+*.trt
+*.engine
